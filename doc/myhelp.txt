@@ -263,6 +263,9 @@
                                显示上下文 
 :g/<pattern>/z#.5|echo "=========="  : display beautifully 
                                            显示得很漂亮 
+                                           
+:g/<pattern>/m5 #第5行到最后一行之间全部倒序
+
 :g/^\s*$/d                  : delete all blank lines 
                                删除所有的空行 
 :g!/^dd/d                   : delete lines not containing string 
